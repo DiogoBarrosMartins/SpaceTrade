@@ -140,13 +140,16 @@ z-index: 10;
 {
     position: relative;
     padding: 100px;
+ 
     background: #1c0522;
+    height: 100vh;
 
 }
 
 .sec h2, .sec h1 
 {
-    font-size: 1.5em;
+  
+    font-size:3em;
     margin-bottom: 10px;
     color:#fff;
 }
@@ -154,6 +157,6 @@ z-index: 10;
 .sec p 
 {
 
-    font-size: 1em;
+    font-size: 1.55em;
     color: #fff;
 }

@@ -74,7 +74,7 @@ const ParallaxSpace: React.FC = () => {
 return (
    <>
    <header ref = {headerRef}>
-    <a href="#" className="logo">Logo</a>
+    <a href="https://github.com/DiogoBarrosMartins" className="logo">DBM</a>
     <ul>
     <li> <a href ="#" className='active'>Home</a></li>
     <li> <a href ="#">Rocket</a></li>
