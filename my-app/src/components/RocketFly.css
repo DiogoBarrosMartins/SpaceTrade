@@ -16,9 +16,6 @@ justify-content: center;
 align-items: center;
 }
 
-
-
-
 .scene i
 {
     position: absolute;
@@ -40,19 +37,10 @@ align-items: center;
 }
 
 
-
-
-
-
-
-
-
-
-
 .scene .rocket{
     position: relative;
     animation: animate 0.2s ease infinite;;
-    z-index: 2;
+    z-index: 200;
 }
 
 @keyframes animate 
@@ -66,6 +54,7 @@ align-items: center;
     transform: translateY(2px);
 }
 }
+
 .scene .rocket::before
 {
     content:"";

@@ -7,7 +7,7 @@ import ParallaxSpace from './components/ParallaxSpace';
 function App() {
   return (
     
-      <ParallaxSpace/>
+      <RocketFly/>
     
   );
 }
