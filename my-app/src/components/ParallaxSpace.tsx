@@ -23,8 +23,7 @@ const ParallaxSpace: React.FC = () => {
     const headerRef =  useRef<HTMLAnchorElement>(null);
 
     useEffect(() => {
-        console.log('Scrolling');
-        // Use effect logic
+       
         const handleScroll = () => {
 
             if (starsRef.current) {
@@ -62,14 +61,14 @@ const ParallaxSpace: React.FC = () => {
                 headerRef.current.style.top = `${value}px`;
             } 
         };
-            // Add event listener
+        // Add event listener
         window.addEventListener('scroll', handleScroll);
 
         // Cleanup: remove event listener
         return () => {
         window.removeEventListener('scroll', handleScroll);
         };
-}, []); // Empty dependency array means this effect runs once after the initial render
+}, []); 
 
 return (
    <>
@@ -106,12 +105,10 @@ return (
 
 <br></br><br></br>
 
-
 <h1>💡 The Next Frontier of Innovation 💡</h1>
 <p>Space mining isn't just about collecting rare minerals; it's about pioneering new technologies that could redefine our way of life. Your exploration contributes to leaps in science, from advanced robotics to breakthrough propulsion systems.</p>
 
 <br></br><br></br>
-
 
 <h1>🌍 A Better Earth Begins in Space 🌍</h1>
 <p>Believe it or not, the keys to solving Earth's environmental problems may be found in space. By sourcing minerals from asteroids, we can reduce the burden on our planet's resources, making your quest not just profitable but also sustainable.</p>
@@ -121,10 +118,7 @@ return (
 <h1>🌟 Join the Cosmic Elite 🌟</h1>
 <p>Be a part of an exclusive community of visionaries, pioneers, and cosmic entrepreneurs. When you venture into space mining, you're not just setting a course for the stars; you're setting a course for history.</p>
 
-
-
 </div>
-
 </>
 )}
 export default ParallaxSpace;
