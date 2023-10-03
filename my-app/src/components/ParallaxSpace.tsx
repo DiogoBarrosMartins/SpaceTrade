@@ -85,7 +85,7 @@ return (
 <img ref={starsRef} src ={stars} id="stars"/>
 <img ref={moonRef} src={moon} id="moon"/>
 <img ref={mountainbRef}src={mountainb} id="mountainb"/>
-<h2 ref = {textRef} id ="text"> Look Up </h2>
+<h2 ref = {textRef} id ="text">  </h2>
 <a  ref={btnRef} href ="#sec" className="btn">Explore</a>
 <img ref={mountainfRef}src={mountainf} id="mountainf"/>
 </section>
